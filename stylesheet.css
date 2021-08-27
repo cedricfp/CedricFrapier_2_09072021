@@ -22,7 +22,7 @@ a:link
 header
 {
     display: grid;
-    grid-template-columns: 55% 15% 15% 15%;
+    grid-template-columns: 70% 10% 10% 10%;
 }
 .logo img
 {
@@ -75,6 +75,8 @@ header
     border-left: none;
     border-right: none;
     border: solid 1px #F2F2F2;
+    font-size: 0.9em;
+    font-weight: bold;
 }
 .bouton
 {
@@ -93,10 +95,10 @@ header
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 57%;
+    width: 67%;
     margin-top: 10px;
     margin-bottom: 15px;
-    font-size: 0.8em;
+    font-size: 1em;
 
 }
 .filtre
@@ -159,7 +161,7 @@ header
 }
 #infos p
 {
-        margin-left: 10px;
+    margin-left: 10px;
 }
 
 #hotel
@@ -624,11 +626,10 @@ footer
     {
         width: 90%;
     }
-    .navigation
+    header
     {
-        display: flex;
-        justify-content: space-between;
-        width: 45%;
+    display: grid;
+    grid-template-columns: 55% 15% 15% 15%;
     }
     #filtres
     {
