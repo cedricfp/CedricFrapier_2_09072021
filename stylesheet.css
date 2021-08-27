@@ -68,6 +68,7 @@ header
 #recherche
 {
     display: flex;
+    margin-bottom: 25px;
 }
 #Rechercher
 {
@@ -94,7 +95,9 @@ header
     align-items: center;
     width: 57%;
     margin-top: 10px;
+    margin-bottom: 15px;
     font-size: 0.8em;
+
 }
 .filtre
 {
@@ -152,6 +155,7 @@ header
 {
     display: flex;
     align-items: baseline;
+    margin-bottom: 15px;
 }
 #infos p
 {
