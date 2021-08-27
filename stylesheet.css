@@ -31,28 +31,44 @@ header
 .nav-heb
 {
     text-align: center;
-    margin-top: 12%;
+    margin-top: -5%;
 }
-.nav-heb a, .nav-act a
-{
-    color: #333;
-}
-.nav-heb :hover, .nav-act :hover
-{
-    color: #0065FC;
-}
-
 .nav-act
 {
     text-align: center;
-    margin-top: 12%;
+    margin-top: -5%;
     margin-left: 20px;
 }
 .nav-insc
 {
     text-align: center;
     font-weight: bold;
-    margin-top: 12%;
+    margin-top: -5%;
+}
+.nav-heb :hover, .nav-act :hover
+{
+    color: #0065FC;
+}
+.nav-heb a, .nav-act a, .nav-insc a
+{
+    display: inline;
+    position: relative;
+    text-decoration: none;
+    color: #333;
+}
+.nav-act a::before, .nav-heb a::before, .nav-insc a::before
+{
+    content: '';
+    display: block;
+    width: 0%;
+    left: 0px;
+    height: 2px;
+    background: #0065FC;
+    margin-bottom: 25px;
+}
+.nav-act a:hover::before, .nav-heb a:hover::before, .nav-insc a:hover::before 
+{
+    width: 100%;
 }
 .nav-insc a
 {
