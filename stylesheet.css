@@ -405,6 +405,10 @@ footer
         position: relative;
         text-decoration: none
     }
+    .nav-act a::before, .nav-heb a::before, .nav-insc a::before
+    {
+        background: white;
+    }
     .nav-heb a:after 
     {
         content: '';
@@ -444,6 +448,7 @@ footer
     {
         width: 100%;
     }
+    
     .nav-insc
     {
         grid-column: 2;
